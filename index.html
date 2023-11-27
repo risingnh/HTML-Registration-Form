@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image">
+        <img src="ledp.png" alt="">
+        <h2>Student Registration Form</h2>
+    </div>
+    <main class="box">
+        <h4>Please enter relevent information</h4>
+        <p>Mandatory Field*</p>
+
+        <form action="#">
+            <div class="left_side">
+               <div class="main_div">
+                    <label for="district">District(Institute District: Where you want to do your course)*</label><br />
+                    <select name="--Select Any One--" id="district" required>
+                        <option value="--Select Any One--">--Select Any One--</option>
+                        <option value="1">Barishal</option>
+                        <option value="2">Dhaka</option>
+                        <option value="3">Noakhali</option>
+                        <option value="4">Dinajpur</option>
+                        <option value="5">Mymenshngh</option>
+                        <option value="6">Rangpur</option>
+                        <option value="7">Chittagong</option>
+                    </select>
+               </div>
+               <div class="main_div">
+                    <label for="course">Course*</label><br />
+                    <select name="course" id="course" required>
+                        <option value="--Select Any One--">--Select Any One--</option>
+                        <option value="Web Design">Web Design</option>
+                        <option value="Graphics Design">Graphics Design</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                    </select>
+                </div>
+                <div class="main_div">
+                    <label for="fName">Student Name*</label>
+                     <br>
+                   <input type="text" name="" id="fName" class="input_box">
+                </div>
+                <div class="main_div">
+                    <label for="sName">Father's Name*</label>
+                     <br>
+                   <input type="text" name="" id="sName" class="input_box">
+                </div>
+                <div class="main_div">
+                    <label for="mName">Mother's Name*</label>
+                     <br>
+                   <input type="text" name="" id="mName" class="input_box">
+                </div>
+                <div class="main_div">
+                    <fieldset>
+                        <legend style="font-size: inherit;">Date of Birth*</legend>
+                        <table>
+                            <tr>
+                                <td>Day:
+                                    <select name="day" id="day" class="birth">
+                                        <option value="Select">Select</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </td>
+                                <td>Month:
+                                    <select name="month" id="month" class="birth">
+                                        <option value="Select">Select</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </td>
+                                <td>Year:
+                                    <select name="year" id="year" class="birth">
+                                        <option value="Select">Select</option>
+                                        <option value="1">2018</option>
+                                        <option value="2">2019</option>
+                                        <option value="3">2020</option>
+                                        <option value="4">2021</option>
+                                        <option value="5">2022</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </div>
+                <div class="main_div">
+                    <p>Gender*</p>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Mele</label>
+                    <br>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="main_div">
+                    <p>Did you participate the 15 days literacy training of LEDP?*</p>
+                    <input type="radio" name="part" id="yes">
+                    <label for="yes">Yes</label>
+                    <br>
+                    <input type="radio" name="part" id="no">
+                    <label for="no">No</label>
+                </div>
+                <div class="main_div">
+                    <label for="email">Student Email*</label>
+                     <br>
+                   <input type="email" name="" id="email" class="input_box">
+                   <p>(e.g: example@mail.com)</p>
+                </div>
+                <div class="main_div">
+                    <label for="phone">Phone Number*</label>
+                     <br>
+                   <input type="text" name="" id="phone" class="input_box">
+                   (e.g:0155123456)
+                </div>
+
+            </div>
+            <div class="right_side">
+                <div class="main_div">
+                    <label for="identity">Identification Type*</label>
+                    <select name="--Select One--" id="identity">--Select One--
+                        <option value="Select One">--Select One--</option>
+                        <option value="Birth">Birth Certificate No.</option>
+                        <option value="National">National Id.</option>
+                    </select>
+                    <p>Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</p>
+                    <input type="text" name="identity" id="identity" class="input_box">
+                    <label for="village" class="lvl_box">Village/House No./Road No./Other Alternative*</label>
+                    <br>
+                    <input type="text" name="village" id="village" class="input_box">
+                    <label for="post" class="lvl_box">Post Office*</label>
+                    <br>
+                    <input type="text" name="post" id="post" class="input_box">
+                </div>
+                <div class="main_div">
+                    <label for="education">Educational Qualification* (Higher Level)</label>
+                    <select name="--Select One--" id="education">--Select One--
+                        <option value="Select One">--Select One--</option>
+                        <option value="HSC">Higher Secondary Certificate</option>
+                        <option value="Bachelor">Bachelor's</option>
+                        <option value="Master">Master's</option>
+                        <option value="Phd">Phd</option>
+                    </select>
+                    <label for="picture" class="lvl_box">Photograph*</label>
+                    <br>
+                    <input type="file" name="picture" id="picture">
+                    <p>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>
+
+                    <label for="signature" class="lvl_box">Signature*</label>
+                    <br>
+                    <input type="file" name="signature" id="signature">
+                    <p>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>
+                    <br>
+                    <input type="button" value="Submit Data" class="submit_btn">
+                </div>
+
+
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>

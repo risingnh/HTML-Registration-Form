@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@200;300;400;500;600;700&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.image{
+    text-align: center;
+}
+.image img{
+    width: 20%;
+    height: 20%;
+}
+.image h2{
+    color: #34495e;
+    font-size: 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid #bfc1c3;
+}
+.box{
+    width: 70%;
+    margin: auto;
+    padding: 10px 0;
+}
+form{
+    padding: 20px 0;
+    display: block;
+}
+form .left_side{
+    width: 48%;
+    float: left;
+}
+form .right_side{
+    width: 47%;
+    float: left;
+    margin-left: 5%;
+}
+select{
+    width: 100%;
+    padding: 8px 10px;
+}
+.input_box{
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+}
+.lvl_box{
+    margin-top: 5px;
+    display: inline-block;
+}
+.main_div{
+    margin: 0 0 13px 0;
+}
+.birth{
+    width: 118px;
+}
+.submit_btn{
+    padding: 15px;
+    font-weight: 600;
+    background-color: #78e08f;
+    cursor: pointer;
+    border: 1px solid #b8e994;
+    border-radius: 5px;
+}
